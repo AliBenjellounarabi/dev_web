@@ -1,0 +1,64 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px -5px;
+}
+
+@media screen and (max-width: 400px)
+{
+    .photo1{
+        height: 100px;
+        width: 100px;
+    }
+    
+}
+
+h1{
+    color: darkred;
+    font-size: 3rem;
+    font-weight: 10px;
+}
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 50px;
+        color: aqua;
+    }
+    h6{
+        color: crimson;
+        font-style: italic;
+        font-size:40px;
+    }
+}
+
+h6{
+    color: blue;
+    font-size: 20px;
+}
+
+.titre1{
+    color: greenyellow;
+    font-style: oblique;
+}
+.titre2{
+    color: orangered;
+}
+p{
+    
+    color: yellow;
+}
+@media screen and (min-width: 400px) and (max-width: 1000px){
+    p{
+        color: crimson;
+        font-size: 25px;
+    }
+    .photo2{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+span{
+    color: forestgreen;
+}
+
